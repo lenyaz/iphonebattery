@@ -99,7 +99,7 @@ var kBattIndicator = new Lang.Class({
 		var devices = upowerClient.get_devices();
 		var i;
 		for (i=0; i < devices.length; i++){
-			if (devices[i].kind == UPower.DeviceKind.KEYBOARD){
+			if (devices[i].kind == UPower.DeviceKind.PHONE){
 				Log("Found: " + devices[i].model + " | " + devices[i].native_path);
 				return devices[i];
 			}
