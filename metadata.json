@@ -1,12 +1,12 @@
 {
-  "description": "Battery indicator for keyboard. At first, I only want make this extention for my Keychron K2, but it should work with any keyboard in general as long as you can find it when running upower -d",
-  "name": "Keyboard battery",
+  "description": "iPhone power indicator.",
+  "name": "iPower",
   "shell-version": [
     "3.28",
     "3.30",
     "3.32"
   ],
-  "uuid": "kBoardBattery-brightstone8x.gmail.com",
-  "version": "3",
-  "url": "https://github.com/cobblestone88/kBoardBattery-brightstone8x.gmail.com"
+  "uuid": "iPower-lenyaz.outlook.com",
+  "version": "1",
+  "url": "https://github.com/lenyaz/iphonebattery"
 }
