@@ -31,7 +31,7 @@ var kBattIndicator = new Lang.Class({
 		this.parent(0.0, "BtKeybBattIndicator");
 
 		var hbox = new St.BoxLayout({ style_class: 'panel-status-menu-box bt-keyb-batt-hbox' });
-		this.icon = new St.Icon({ icon_name: 'input-keyboard',
+		this.icon = new St.Icon({ icon_name: 'phone',
 					 style_class: 'system-status-icon bt-keyb-batt-icon' });
 		hbox.add_child(this.icon);
 
